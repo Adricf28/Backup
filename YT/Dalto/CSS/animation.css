@@ -1,0 +1,40 @@
+* {
+    font-family: 'Righteous', cursive;
+    font-size: 110%;
+}
+
+.container {
+    padding: 20px 5px;
+    background-color: #86f;
+}
+
+.caja {
+    background-color: #025;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    position: relative;
+    border-radius: 20px;
+    animation-name: desplazarse;
+    animation-duration: .1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes desplazarse {
+    0% {
+        left: 0;
+        background-color: #025;
+    }
+
+    50% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: lightgreen;
+        left: 90%;
+    }
+}

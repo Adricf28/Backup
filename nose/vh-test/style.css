@@ -1,0 +1,111 @@
+* {
+    font-size: 109%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}    
+
+.inicio {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images8.alphacoders.com/373/373397.jpg);
+    background-size: 2550px 1300px;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar-item {
+    flex: 1;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 30px;
+    text-shadow: 1px 1px black;
+}
+
+.navbar-item a::before {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(53, 88, 202);
+    display: block;
+    transition: width 0.3s ;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    right: 1px;
+    position: relative;
+}
+
+.navbar-item a:hover::before {
+    width: 100%;
+}
+
+.icons{
+    overflow: hidden;
+    height: 70px;
+    width: 70px;
+    color: white;
+    font-size: 2.5em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    transition: transform .3s;
+}
+
+.icons:hover {
+    transform: scale(1.2);
+}
+
+.dsuno {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://wallpapercave.com/wp/wp3756449.jpg);
+    background-size: cover;
+    position: relative;
+}    
+
+.dsdos {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://i.pinimg.com/originals/e7/c3/7c/e7c37c214a174b0e5e7a65d5e0743c64.jpg);
+    background-size: 2550px 1300px;
+    position: relative;
+    z-index: 50;
+}
+
+.dstres {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://images5.alphacoders.com/609/thumb-1920-609173.jpg);
+    background-size: 2550px 1300px;
+    position: relative;
+    z-index: 50;
+}

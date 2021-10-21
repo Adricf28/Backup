@@ -1,0 +1,17 @@
+header nav ul li p::before {
+    content: '';
+    height: 3.5px;
+    width: 0;
+    background: white;
+    display: block;
+    transition: width 0.3s ;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+header nav ul li p:hover:before{
+    width: 100%;
+
+}
+header nav ul li:first-child  p::before{
+    display: none !important;
+}

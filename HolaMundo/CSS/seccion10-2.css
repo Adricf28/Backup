@@ -1,0 +1,15 @@
+body {
+    background-color: #eee;
+    font-size: 2em;
+}
+
+p {
+    max-width: 350px;
+    background-color: #f00;
+    margin: auto;
+    /*position: relative;*/
+    position: fixed;  /*fixed hace que el texto se mueva contigo al hacer scroll*/
+    right: 15px;
+    top: 0px;
+    bottom: 0px;
+}

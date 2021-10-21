@@ -1,0 +1,12 @@
+body {
+    background-color: #eee;
+    font-size: 2em;
+}
+
+#invisible {
+    display: None;
+}
+
+span {
+    display: block;
+}

@@ -1,0 +1,1483 @@
+11:45:57 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:45:58 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x000001DBD2DD1040>
+11:45:58 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001DBD122B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:45:58 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:45:58 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:45:58 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001DBD122B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:45:58 AM: DEBUG [usuario_dao.py:53] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+11:45:58 AM: DEBUG [usuario_dao.py:53] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+11:46:44 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:46:44 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x000002A96E761B50>
+11:46:44 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000002A96CC1B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:46:44 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:46:44 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:46:44 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000002A96CC1B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:46:44 AM: DEBUG [usuario_dao.py:53] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+11:46:44 AM: DEBUG [usuario_dao.py:53] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+11:48:51 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:48:51 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x000001DCBB041220>
+11:48:51 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001DCB94BB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:48:51 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:48:51 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:48:51 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001DCB94BB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:48:51 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+11:48:51 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+11:48:51 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:48:51 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001DCB94BB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:48:51 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:48:51 AM: ERROR [cursor_pool.py:19] Error al cerrar el cursor: not all arguments converted during string formatting
+11:48:51 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001DCB94BB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:50:26 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:50:26 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x000001CA51270220>
+11:50:26 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001CA4F70B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:50:26 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:50:26 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:50:26 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001CA4F70B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:50:26 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+11:50:26 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+11:50:26 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:50:26 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001CA4F70B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:50:26 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:50:26 AM: ERROR [cursor_pool.py:19] Error al cerrar el cursor: not all arguments converted during string formatting
+11:50:26 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001CA4F70B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:51:24 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:51:24 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x000001CD0BF531C0>
+11:51:24 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001CD0A3DB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:51:24 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:51:24 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:51:24 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001CD0A3DB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:51:24 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+11:51:24 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+11:51:24 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:51:24 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001CD0A3DB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:51:24 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:51:24 AM: ERROR [cursor_pool.py:19] Error al cerrar el cursor: duplicate key value violates unique constraint "usuario_pkey"
+DETAIL:  Key (id_usuario)=(1) already exists.
+
+11:51:24 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001CD0A3DB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:51:57 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:51:57 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x0000027C1F7C31C0>
+11:51:57 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x0000027C1DC5B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:51:57 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:51:57 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:51:57 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x0000027C1DC5B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:51:57 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+11:51:57 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+11:51:57 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:51:57 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x0000027C1DC5B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:51:57 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:51:57 AM: ERROR [cursor_pool.py:19] Error al cerrar el cursor: duplicate key value violates unique constraint "usuario_pkey"
+DETAIL:  Key (id_usuario)=(2) already exists.
+
+11:51:57 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x0000027C1DC5B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:52:00 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:52:00 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x000001CE9FC331C0>
+11:52:00 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001CE9E0CB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:52:00 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:52:00 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:52:00 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001CE9E0CB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:52:00 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+11:52:00 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+11:52:00 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:52:00 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001CE9E0CB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:52:00 AM: DEBUG [usuario_dao.py:27] Usuario insertado: 
+                ID Usuario: None
+                Username: Sonik
+                Password: biribibae
+                
+11:52:00 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:52:00 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:52:00 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001CE9E0CB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:52:00 AM: DEBUG [usuario_dao.py:54] Usuarios insertados: 1
+11:52:00 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:52:00 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001CE9E0CB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:52:00 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:52:00 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:52:00 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001CE9E0CB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:52:00 AM: DEBUG [usuario_dao.py:58] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+11:52:00 AM: DEBUG [usuario_dao.py:58] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+11:52:00 AM: DEBUG [usuario_dao.py:58] 
+                ID Usuario: 3
+                Username: Sonik
+                Password: biribibae
+                
+11:53:24 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:53:24 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x000001DD9FBC2B50>
+11:53:24 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001DD9E07B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:53:24 AM: DEBUG [usuario_dao.py:14] Usuarios:
+11:53:24 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:53:24 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:53:24 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001DD9E07B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:53:24 AM: DEBUG [usuario_dao.py:51] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+11:53:24 AM: DEBUG [usuario_dao.py:51] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+11:53:24 AM: DEBUG [usuario_dao.py:51] 
+                ID Usuario: 3
+                Username: Sonik
+                Password: biribibae
+                
+11:54:38 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:54:38 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x00000192FF702B50>
+11:54:38 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x00000192FEF9B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:54:38 AM: DEBUG [usuario_dao.py:14] Usuarios:
+11:54:38 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:54:38 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:54:38 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x00000192FEF9B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:54:38 AM: DEBUG [usuario_dao.py:51] U
+11:54:38 AM: DEBUG [usuario_dao.py:51] s
+11:54:38 AM: DEBUG [usuario_dao.py:51] u
+11:54:38 AM: DEBUG [usuario_dao.py:51] a
+11:54:38 AM: DEBUG [usuario_dao.py:51] r
+11:54:38 AM: DEBUG [usuario_dao.py:51] i
+11:54:38 AM: DEBUG [usuario_dao.py:51] o
+11:54:38 AM: DEBUG [usuario_dao.py:51] s
+11:54:38 AM: DEBUG [usuario_dao.py:51] :
+11:54:38 AM: DEBUG [usuario_dao.py:51]  
+11:54:38 AM: DEBUG [usuario_dao.py:51] [
+11:54:38 AM: DEBUG [usuario_dao.py:51] <
+11:54:38 AM: DEBUG [usuario_dao.py:51] u
+11:54:38 AM: DEBUG [usuario_dao.py:51] s
+11:54:38 AM: DEBUG [usuario_dao.py:51] u
+11:54:38 AM: DEBUG [usuario_dao.py:51] a
+11:54:38 AM: DEBUG [usuario_dao.py:51] r
+11:54:38 AM: DEBUG [usuario_dao.py:51] i
+11:54:38 AM: DEBUG [usuario_dao.py:51] o
+11:54:38 AM: DEBUG [usuario_dao.py:51] .
+11:54:38 AM: DEBUG [usuario_dao.py:51] U
+11:54:38 AM: DEBUG [usuario_dao.py:51] s
+11:54:38 AM: DEBUG [usuario_dao.py:51] u
+11:54:38 AM: DEBUG [usuario_dao.py:51] a
+11:54:38 AM: DEBUG [usuario_dao.py:51] r
+11:54:38 AM: DEBUG [usuario_dao.py:51] i
+11:54:38 AM: DEBUG [usuario_dao.py:51] o
+11:54:38 AM: DEBUG [usuario_dao.py:51]  
+11:54:38 AM: DEBUG [usuario_dao.py:51] o
+11:54:38 AM: DEBUG [usuario_dao.py:51] b
+11:54:38 AM: DEBUG [usuario_dao.py:51] j
+11:54:38 AM: DEBUG [usuario_dao.py:51] e
+11:54:38 AM: DEBUG [usuario_dao.py:51] c
+11:54:38 AM: DEBUG [usuario_dao.py:51] t
+11:54:38 AM: DEBUG [usuario_dao.py:51]  
+11:54:38 AM: DEBUG [usuario_dao.py:51] a
+11:54:38 AM: DEBUG [usuario_dao.py:51] t
+11:54:38 AM: DEBUG [usuario_dao.py:51]  
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] x
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 1
+11:54:38 AM: DEBUG [usuario_dao.py:51] 9
+11:54:38 AM: DEBUG [usuario_dao.py:51] 2
+11:54:38 AM: DEBUG [usuario_dao.py:51] F
+11:54:38 AM: DEBUG [usuario_dao.py:51] F
+11:54:38 AM: DEBUG [usuario_dao.py:51] 7
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 2
+11:54:38 AM: DEBUG [usuario_dao.py:51] A
+11:54:38 AM: DEBUG [usuario_dao.py:51] 6
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] >
+11:54:38 AM: DEBUG [usuario_dao.py:51] ,
+11:54:38 AM: DEBUG [usuario_dao.py:51]  
+11:54:38 AM: DEBUG [usuario_dao.py:51] <
+11:54:38 AM: DEBUG [usuario_dao.py:51] u
+11:54:38 AM: DEBUG [usuario_dao.py:51] s
+11:54:38 AM: DEBUG [usuario_dao.py:51] u
+11:54:38 AM: DEBUG [usuario_dao.py:51] a
+11:54:38 AM: DEBUG [usuario_dao.py:51] r
+11:54:38 AM: DEBUG [usuario_dao.py:51] i
+11:54:38 AM: DEBUG [usuario_dao.py:51] o
+11:54:38 AM: DEBUG [usuario_dao.py:51] .
+11:54:38 AM: DEBUG [usuario_dao.py:51] U
+11:54:38 AM: DEBUG [usuario_dao.py:51] s
+11:54:38 AM: DEBUG [usuario_dao.py:51] u
+11:54:38 AM: DEBUG [usuario_dao.py:51] a
+11:54:38 AM: DEBUG [usuario_dao.py:51] r
+11:54:38 AM: DEBUG [usuario_dao.py:51] i
+11:54:38 AM: DEBUG [usuario_dao.py:51] o
+11:54:38 AM: DEBUG [usuario_dao.py:51]  
+11:54:38 AM: DEBUG [usuario_dao.py:51] o
+11:54:38 AM: DEBUG [usuario_dao.py:51] b
+11:54:38 AM: DEBUG [usuario_dao.py:51] j
+11:54:38 AM: DEBUG [usuario_dao.py:51] e
+11:54:38 AM: DEBUG [usuario_dao.py:51] c
+11:54:38 AM: DEBUG [usuario_dao.py:51] t
+11:54:38 AM: DEBUG [usuario_dao.py:51]  
+11:54:38 AM: DEBUG [usuario_dao.py:51] a
+11:54:38 AM: DEBUG [usuario_dao.py:51] t
+11:54:38 AM: DEBUG [usuario_dao.py:51]  
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] x
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 1
+11:54:38 AM: DEBUG [usuario_dao.py:51] 9
+11:54:38 AM: DEBUG [usuario_dao.py:51] 2
+11:54:38 AM: DEBUG [usuario_dao.py:51] F
+11:54:38 AM: DEBUG [usuario_dao.py:51] F
+11:54:38 AM: DEBUG [usuario_dao.py:51] 7
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 2
+11:54:38 AM: DEBUG [usuario_dao.py:51] A
+11:54:38 AM: DEBUG [usuario_dao.py:51] F
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] >
+11:54:38 AM: DEBUG [usuario_dao.py:51] ,
+11:54:38 AM: DEBUG [usuario_dao.py:51]  
+11:54:38 AM: DEBUG [usuario_dao.py:51] <
+11:54:38 AM: DEBUG [usuario_dao.py:51] u
+11:54:38 AM: DEBUG [usuario_dao.py:51] s
+11:54:38 AM: DEBUG [usuario_dao.py:51] u
+11:54:38 AM: DEBUG [usuario_dao.py:51] a
+11:54:38 AM: DEBUG [usuario_dao.py:51] r
+11:54:38 AM: DEBUG [usuario_dao.py:51] i
+11:54:38 AM: DEBUG [usuario_dao.py:51] o
+11:54:38 AM: DEBUG [usuario_dao.py:51] .
+11:54:38 AM: DEBUG [usuario_dao.py:51] U
+11:54:38 AM: DEBUG [usuario_dao.py:51] s
+11:54:38 AM: DEBUG [usuario_dao.py:51] u
+11:54:38 AM: DEBUG [usuario_dao.py:51] a
+11:54:38 AM: DEBUG [usuario_dao.py:51] r
+11:54:38 AM: DEBUG [usuario_dao.py:51] i
+11:54:38 AM: DEBUG [usuario_dao.py:51] o
+11:54:38 AM: DEBUG [usuario_dao.py:51]  
+11:54:38 AM: DEBUG [usuario_dao.py:51] o
+11:54:38 AM: DEBUG [usuario_dao.py:51] b
+11:54:38 AM: DEBUG [usuario_dao.py:51] j
+11:54:38 AM: DEBUG [usuario_dao.py:51] e
+11:54:38 AM: DEBUG [usuario_dao.py:51] c
+11:54:38 AM: DEBUG [usuario_dao.py:51] t
+11:54:38 AM: DEBUG [usuario_dao.py:51]  
+11:54:38 AM: DEBUG [usuario_dao.py:51] a
+11:54:38 AM: DEBUG [usuario_dao.py:51] t
+11:54:38 AM: DEBUG [usuario_dao.py:51]  
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] x
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 1
+11:54:38 AM: DEBUG [usuario_dao.py:51] 9
+11:54:38 AM: DEBUG [usuario_dao.py:51] 2
+11:54:38 AM: DEBUG [usuario_dao.py:51] F
+11:54:38 AM: DEBUG [usuario_dao.py:51] F
+11:54:38 AM: DEBUG [usuario_dao.py:51] 7
+11:54:38 AM: DEBUG [usuario_dao.py:51] 1
+11:54:38 AM: DEBUG [usuario_dao.py:51] 7
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] 7
+11:54:38 AM: DEBUG [usuario_dao.py:51] 0
+11:54:38 AM: DEBUG [usuario_dao.py:51] >
+11:54:38 AM: DEBUG [usuario_dao.py:51] ]
+11:55:18 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:55:18 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x000001F013BD1BB0>
+11:55:18 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001F01204B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:55:18 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:55:18 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:55:18 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001F01204B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:55:18 AM: DEBUG [usuario_dao.py:50] Usuarios:
+11:55:18 AM: DEBUG [usuario_dao.py:50] [<usuario.Usuario object at 0x000001F013BD19A0>, <usuario.Usuario object at 0x000001F013BD1A90>, <usuario.Usuario object at 0x000001F013BD1AF0>]
+11:55:42 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:55:42 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x0000013C421A1B50>
+11:55:42 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x0000013C4062B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:55:43 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:55:43 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:55:43 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x0000013C4062B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:55:43 AM: DEBUG [usuario_dao.py:50] Usuarios:
+11:55:43 AM: DEBUG [usuario_dao.py:50] None
+11:55:55 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:55:55 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x0000015B9E391BB0>
+11:55:55 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x0000015B9C84B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:55:55 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:55:55 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:55:55 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x0000015B9C84B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:55:55 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+11:55:55 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+11:55:55 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 3
+                Username: Sonik
+                Password: biribibae
+                
+11:56:59 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:56:59 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x000001E6CE012B50>
+11:56:59 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001E6CC4DB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:56:59 AM: DEBUG [usuario_dao.py:20] Usuarios:
+11:56:59 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:56:59 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:56:59 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001E6CC4DB8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:56:59 AM: DEBUG [usuario_dao.py:50] None
+11:56:59 AM: DEBUG [usuario_dao.py:50] [<usuario.Usuario object at 0x000001E6CE012A60>, <usuario.Usuario object at 0x000001E6CE012AF0>, <usuario.Usuario object at 0x000001E6CE027070>]
+11:58:40 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:58:40 AM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x000002463D2931C0>
+11:58:40 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000002463B72B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:58:40 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:58:40 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:58:40 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000002463B72B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:58:40 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+11:58:40 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+11:58:40 AM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 3
+                Username: Sonik
+                Password: biribibae
+                
+11:58:40 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:58:40 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000002463B72B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:58:40 AM: DEBUG [usuario_dao.py:35] Usuario actualizado: 
+                ID Usuario: None
+                Username: sonik
+                Password: biribibae
+                
+11:58:40 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:58:40 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:58:40 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000002463B72B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:58:40 AM: DEBUG [usuario_dao.py:54] Usuarios actualizados: None
+11:58:40 AM: DEBUG [cursor_pool.py:10] Entrando al with enter
+11:58:40 AM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000002463B72B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:58:40 AM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+11:58:40 AM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+11:58:40 AM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000002463B72B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:58:40 AM: DEBUG [usuario_dao.py:58] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+11:58:40 AM: DEBUG [usuario_dao.py:58] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+11:58:40 AM: DEBUG [usuario_dao.py:58] 
+                ID Usuario: 3
+                Username: Sonik
+                Password: biribibae
+                
+12:00:42 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:00:42 PM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x00000246B9501220>
+12:00:42 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x00000246B799B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:00:42 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:00:42 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:00:42 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x00000246B799B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:00:42 PM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:00:42 PM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:00:42 PM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 3
+                Username: Sonik
+                Password: biribibae
+                
+12:00:42 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:00:42 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x00000246B799B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:00:42 PM: DEBUG [usuario_dao.py:35] Usuario actualizado: 
+                ID Usuario: 3
+                Username: sonik
+                Password: biribibae
+                
+12:00:42 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:00:42 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:00:42 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x00000246B799B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:00:42 PM: DEBUG [usuario_dao.py:54] Usuarios actualizados: None
+12:00:42 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:00:42 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x00000246B799B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:00:42 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:00:42 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:00:42 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x00000246B799B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:00:42 PM: DEBUG [usuario_dao.py:58] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:00:42 PM: DEBUG [usuario_dao.py:58] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:00:42 PM: DEBUG [usuario_dao.py:58] 
+                ID Usuario: 3
+                Username: sonik
+                Password: biribibae
+                
+12:01:25 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:01:25 PM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x0000017535813190>
+12:01:25 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x0000017533C7B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:01:25 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:01:25 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:01:25 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x0000017533C7B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:01:25 PM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:01:25 PM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:01:25 PM: DEBUG [usuario_dao.py:50] 
+                ID Usuario: 3
+                Username: sonik
+                Password: biribibae
+                
+12:01:25 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:01:25 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x0000017533C7B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:01:25 PM: DEBUG [usuario_dao.py:43] Usuario eliminado: 
+                ID Usuario: 3
+                Username: None
+                Password: None
+                
+12:01:25 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:01:25 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:01:25 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x0000017533C7B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:01:25 PM: DEBUG [usuario_dao.py:54] Usuarios eliminado: None
+12:01:25 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:01:25 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x0000017533C7B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:01:25 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:01:25 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:01:25 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x0000017533C7B8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:01:25 PM: DEBUG [usuario_dao.py:58] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:01:25 PM: DEBUG [usuario_dao.py:58] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:08:14 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:08:14 PM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x0000022DA54DCF70>
+12:08:14 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x0000022DA57DA8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:08:14 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:08:14 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:08:14 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x0000022DA57DA8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:08:14 PM: DEBUG [menu_app_usuarios.py:16] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:08:14 PM: DEBUG [menu_app_usuarios.py:16] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:08:47 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:08:47 PM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x0000011976302F70>
+12:08:47 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x00000119765EA8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:08:47 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:08:47 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:08:47 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x00000119765EA8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:08:47 PM: DEBUG [menu_app_usuarios.py:18] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:08:47 PM: DEBUG [menu_app_usuarios.py:18] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:11:30 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:11:30 PM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x0000021490313B50>
+12:11:30 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x00000214905FE8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:11:30 PM: DEBUG [usuario_dao.py:27] Usuario insertado: 
+                ID Usuario: None
+                Username: adrian
+                Password: sisisi
+                
+12:11:30 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:11:30 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:11:30 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x00000214905FE8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:11:30 PM: DEBUG [menu_app_usuarios.py:24] Usuario insertado: 1
+12:11:36 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:11:36 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x00000214905FE8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:11:36 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:11:36 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:11:36 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x00000214905FE8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:11:36 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:11:36 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:11:36 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 4
+                Username: adrian
+                Password: sisisi
+                
+12:17:29 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:17:29 PM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x0000026E8EFF4F70>
+12:17:29 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x0000026E8F344040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:17:29 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:17:29 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:17:29 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x0000026E8F344040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:17:29 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:17:29 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:17:29 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 4
+                Username: adrian
+                Password: sisisi
+                
+12:17:43 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:17:43 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x0000026E8F344040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:17:43 PM: DEBUG [usuario_dao.py:35] Usuario actualizado: 
+                ID Usuario: 4
+                Username: pepe
+                Password: nonono
+                
+12:17:43 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:17:43 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:17:43 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x0000026E8F344040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:17:43 PM: DEBUG [menu_app_usuarios.py:30] Usuario actualizado: None
+12:17:54 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:17:54 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x0000026E8F344040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:17:54 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:17:54 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:17:54 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x0000026E8F344040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:17:54 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:17:54 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:17:54 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 4
+                Username: pepe
+                Password: nonono
+                
+12:20:22 PM: DEBUG [menu_app_usuarios.py:38] Saliendo del programa...
+12:21:04 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:21:36 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:21:36 PM: DEBUG [conexion.py:25] Se ha creado el pool de conexiones: <psycopg2.pool.SimpleConnectionPool object at 0x000001F000E658E0>
+12:21:36 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001F0011508C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:21:36 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:21:36 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:21:36 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001F0011508C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:21:36 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:21:36 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:21:36 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 4
+                Username: pepe
+                Password: nonono
+                
+12:21:36 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:21:43 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:21:43 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001F0011508C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:21:43 PM: DEBUG [usuario_dao.py:43] Usuario eliminado: 
+                ID Usuario: 4
+                Username: None
+                Password: None
+                
+12:21:43 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:21:43 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:21:43 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001F0011508C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:21:43 PM: DEBUG [menu_app_usuarios.py:35] Usuario eliminado: None
+12:21:43 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:22:08 PM: DEBUG [cursor_pool.py:10] Entrando al with enter
+12:22:08 PM: DEBUG [conexion.py:36] Conexion obtenida del pool: <connection object at 0x000001F0011508C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:22:08 PM: DEBUG [cursor_pool.py:16] Ejecutando metodo exit
+12:22:08 PM: DEBUG [cursor_pool.py:22] Commit de la transaccion
+12:22:08 PM: DEBUG [conexion.py:42] Devolviendo la conexion al pool: <connection object at 0x000001F0011508C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:22:08 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:22:08 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:22:08 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:27:17 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:27:17 PM: DEBUG [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:27:17 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:28:35 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:28:35 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:28:35 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:40 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:40 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:40 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:41 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:41 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:41 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:41 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:41 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:41 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:42 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:42 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:42 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:42 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:42 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:42 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:43 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:43 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:43 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:43 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:43 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:43 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:44 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:44 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:44 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:44 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:44 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:44 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:45 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:45 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:45 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:45 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:45 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:45 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:46 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:46 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:46 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:46 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:46 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:46 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:47 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:47 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:47 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:48 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:48 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:48 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:48 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:48 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:48 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:49 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:49 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:49 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:49 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:49 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:49 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:50 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:50 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:50 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:50 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:50 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:50 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:29:51 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:29:51 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:29:51 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:31:02 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:31:02 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:31:02 PM: DEBUG [menu_app_usuarios.py:42] Elige una opcion valida.
+12:31:29 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:31:29 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:32:17 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:32:17 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:32:28 PM: INFO [menu_app_usuarios.py:18] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:32:28 PM: INFO [menu_app_usuarios.py:18] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:32:49 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:32:49 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:33:02 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:33:02 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:33:24 PM: DEBUG [usuario_dao.py:27] Usuario insertado: 
+                ID Usuario: None
+                Username: paco
+                Password: madrid
+                
+12:33:24 PM: DEBUG [menu_app_usuarios.py:25] Usuario insertado: 1
+12:34:20 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:34:20 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:34:20 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 5
+                Username: paco
+                Password: madrid
+                
+12:34:34 PM: DEBUG [usuario_dao.py:35] Usuario actualizado: 
+                ID Usuario: 5
+                Username: amara
+                Password: barsa
+                
+12:34:34 PM: DEBUG [menu_app_usuarios.py:32] Usuario actualizado: None
+12:34:58 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:34:58 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:34:58 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 5
+                Username: amara
+                Password: barsa
+                
+12:35:08 PM: DEBUG [usuario_dao.py:27] Usuario insertado: 
+                ID Usuario: None
+                Username: yoni
+                Password: valencia
+                
+12:35:08 PM: DEBUG [menu_app_usuarios.py:25] Usuarios insertados: 1
+12:35:38 PM: DEBUG [usuario_dao.py:35] Usuario actualizado: 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:35:38 PM: DEBUG [menu_app_usuarios.py:32] Usuario actualizado: None
+12:36:46 PM: DEBUG [usuario_dao.py:35] Usuario actualizado: 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:36:46 PM: DEBUG [menu_app_usuarios.py:32] Usuario actualizado: None
+12:37:26 PM: DEBUG [usuario_dao.py:35] Usuario actualizado: 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:37:26 PM: DEBUG [menu_app_usuarios.py:32] Usuario actualizado: None
+12:37:41 PM: DEBUG [usuario_dao.py:35] Usuario actualizado: 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:37:41 PM: DEBUG [menu_app_usuarios.py:32] Usuarios actualizados: 1
+12:37:52 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:37:52 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:37:52 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:37:52 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 6
+                Username: yoni
+                Password: valencia
+                
+12:38:12 PM: DEBUG [usuario_dao.py:27] Usuario insertado: 
+                ID Usuario: None
+                Username: paco
+                Password: carpintero
+                
+12:38:12 PM: DEBUG [menu_app_usuarios.py:25] Usuarios insertados: 1
+12:38:21 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:38:21 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:38:21 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:38:21 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 6
+                Username: yoni
+                Password: valencia
+                
+12:38:21 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 7
+                Username: paco
+                Password: carpintero
+                
+12:38:38 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:38:38 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:38:38 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:38:38 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 6
+                Username: yoni
+                Password: valencia
+                
+12:38:38 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 7
+                Username: paco
+                Password: carpintero
+                
+12:38:45 PM: DEBUG [usuario_dao.py:43] Usuario eliminado: 
+                ID Usuario: 7
+                Username: None
+                Password: None
+                
+12:38:45 PM: DEBUG [menu_app_usuarios.py:38] Usuarios eliminados: 1
+12:39:56 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:39:56 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:39:56 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:39:56 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 6
+                Username: yoni
+                Password: valencia
+                
+12:40:02 PM: DEBUG [usuario_dao.py:27] Usuario insertado: 
+                ID Usuario: None
+                Username: si
+                Password: no
+                
+12:40:02 PM: INFO [menu_app_usuarios.py:25] Usuarios insertados: 1
+12:40:58 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:40:58 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:40:58 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:40:58 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 6
+                Username: yoni
+                Password: valencia
+                
+12:40:58 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 8
+                Username: si
+                Password: no
+                
+12:41:14 PM: INFO [menu_app_usuarios.py:38] Usuarios eliminados: 1
+12:41:34 PM: INFO [menu_app_usuarios.py:38] Usuarios eliminados: 1
+12:41:36 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:41:36 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:41:36 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:41:49 PM: INFO [menu_app_usuarios.py:25] Usuarios insertados: 1
+12:42:19 PM: INFO [menu_app_usuarios.py:32] Usuarios actualizados: 1
+12:42:21 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:42:21 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:42:21 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:42:21 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 9
+                Username: paco
+                Password: si
+                
+12:42:31 PM: INFO [menu_app_usuarios.py:38] Usuarios eliminados: 1
+12:43:04 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:43:04 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:43:04 PM: INFO [menu_app_usuarios.py:19] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:43:18 PM: INFO [menu_app_usuarios.py:25] Usuarios insertados: 1
+12:45:26 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:45:26 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:45:26 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:45:26 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 10
+                Username: paco
+                Password: carpintero
+                
+12:45:44 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+12:45:44 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+12:45:44 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+12:45:44 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 10
+                Username: paco
+                Password: carpintero
+                
+07:32:29 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+07:32:29 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+07:32:29 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+07:32:29 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 10
+                Username: paco
+                Password: carpintero
+                
+07:32:44 PM: DEBUG [menu_app_usuarios.py:43] Saliendo del programa...
+06:26:21 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+06:26:21 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+06:26:21 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+06:26:21 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 10
+                Username: paco
+                Password: carpintero
+                
+06:26:45 AM: INFO [menu_app_usuarios.py:26] Usuarios insertados: 1
+06:26:49 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+06:26:49 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+06:26:49 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+06:26:49 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 10
+                Username: paco
+                Password: carpintero
+                
+06:26:49 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 11
+                Username: ekko
+                Password: alcachofa
+                
+06:27:00 AM: INFO [menu_app_usuarios.py:33] Usuarios actualizados: 1
+06:27:04 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+06:27:04 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+06:27:04 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+06:27:04 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 10
+                Username: paco
+                Password: carpintero
+                
+06:27:04 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 11
+                Username: quiero
+                Password: morir
+                
+06:27:12 AM: INFO [menu_app_usuarios.py:39] Usuarios eliminados: 1
+06:27:14 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+06:27:14 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+06:27:14 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+06:27:14 AM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 10
+                Username: paco
+                Password: carpintero
+                
+06:30:54 AM: DEBUG [menu_app_usuarios.py:47] Elige una opcion valida.
+06:30:57 AM: DEBUG [menu_app_usuarios.py:43] Saliendo del programa...
+06:32:04 AM: DEBUG [menu_app_usuarios.py:43] Saliendo del programa...
+03:05:20 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+03:05:20 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+03:05:20 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                
+03:05:20 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 10
+                Username: paco
+                Password: carpintero
+                
+03:05:34 PM: INFO [menu_app_usuarios.py:39] Usuarios eliminados: 1
+03:05:38 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 1
+                Username: acarmona
+                Password: 123
+                
+03:05:38 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 2
+                Username: mfernandez
+                Password: 456
+                
+03:05:38 PM: INFO [menu_app_usuarios.py:20] 
+                ID Usuario: 5
+                Username: amara
+                Password: malaga
+                

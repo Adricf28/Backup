@@ -1,0 +1,23 @@
+.caja {
+    padding: 1.5%;
+    padding-top: 0%;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    border-left: 1px solid rgb(128, 128, 128);
+    border-right: 1px solid rgb(128, 128, 128);
+}
+
+#boton1 {
+    background-color: rgb(86, 176, 255);
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    border: 0;
+    margin: 2px;
+}
+
+#boton2 {
+    background-color: rgb(149, 149, 149);
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    border: 0;
+    margin: 2px;
+}

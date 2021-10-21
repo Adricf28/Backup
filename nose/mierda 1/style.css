@@ -1,0 +1,19 @@
+:root {
+    background-color: #eee;
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+}
+
+#nav-bar {
+    display: inline-block;
+    margin: 0;
+    margin: 20px;
+}
+
+.box {
+    display: inline;
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: #eee;
+    font-size: 2em;
+}
+
+/*ul li{
+    /*list-style-type: circle;*/
+    /*list-style-type: square;*/
+    /*list-style-type: upper-roman;*/
+    /*list-style-type: lower-alpha;*/
+
+ul {
+    list-style-type: none;
+    background-color: #fff;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    padding-left: 0px;
+}
+
+li {
+    border-bottom: solid 1px #ddd;
+    padding: 1em;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Dalto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
+    <link rel="icon" href="C:\Users\IDeTe\Pictures\esperar.ico">
+
+    <!-- NORMALIZE REAJUSTA CARACTERISTICAS QUE MOLESTAN DE LOS NAVEGADORES -->
+    <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
+</head>
+<body>
+    
+<!-- PUEDES AÑADIR ATRIBUTOS A LOS ELEMENTOS PARA LUEGO SELECCIONARLOS EN CSS Y DARLE ESTILO -->
+    <p armondiga="wenizima">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit suscipit voluptate ad eius dicta iure. Culpa facilis rerum, ut molestias nisi quibusdam. Quidem corrupti minima suscipit amet nobis ea? Ipsa.</p>
+    <br>
+
+    <div class="caja1">TEXTO</div>
+    <div class="caja2">TEXTO 2</div>
+    <br>
+
+    <!-- SI PONES LOS DIVS EN LA MISMA LINEA NO HAY ESPACIO ENTRE ELLOS -->
+    <div class="caja a"></div><div class="caja b"></div><div class="caja c"></div><div class="caja d"></div>
+    <br> <br> <br>
+    
+    <div class="sticky">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, enim temporibus explicabo earum quos sequi nemo accusamus vel at voluptatum sed aut aspernatur illo corrupti ducimus facere, aliquam neque deleniti!</div>
+    <br>
+
+    <div class="cajas A">Caja 1</div>
+    <div class="cajas B">Caja 2</div>
+    <div class="cajas C">Caja 3</div>
+    <div class="cajas D">Caja 4</div>
+    <br> <br>
+
+
+    <div class="container">
+        <div class="hijo"></div>
+    </div>
+    <br>
+
+    <div class="contenedor">
+        <div class="cajaa aa">Caja 1</div>
+        <div class="cajaa bb">Caja 2</div>
+        <div class="cajaa cc">Caja 3</div>
+        <div class="cajaa dd">Caja 4</div>
+        <div class="cajaa ee">Caja 5</div>
+    </div>
+    <br>
+
+    <div class="displays"></div>
+    <div class="displays"></div>
+    <div class="displays"></div>
+    <br>
+
+    <div class="overflow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ab molestias illum dicta veritatis hic quia doloremque nobis nemo debitis. Hic numquam in nemo id, minus facere eos explicabo rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti fuga cupiditate odit. Nisi unde nostrum sequi iure, natus laboriosam placeat ullam. Voluptates aut similique consequatur, animi iure labore excepturi recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aliquid laudantium quo vitae aliquam quaerat tempore consequatur maxime itaque, sit obcaecati doloremque ipsam harum illum cum? Expedita, nesciunt. Rerum, quia. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore reprehenderit aspernatur itaque molestiae deleniti ipsa, voluptates excepturi inventore eum ad, placeat ex id pariatur aperiam blanditiis maiores qui quaerat! Fugiat?</div>
+    <br>
+
+    <div class="float">
+        <img src="data:image/png;base64,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" alt="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam enim et! Culpa, facilis? Numquam quam minus, delectus, quisquam doloribus beatae aut explicabo harum suscipit voluptatem unde! Cupiditate, autem ea. lorem
+    </div>
+    <br>
+
+    <p class="befafter">
+        <b>un</b>
+    </p>
+    <br>
+
+    <input class="focus">
+    <br> <br>
+
+    <div class="imagen">    
+        <img src="https://i.pinimg.com/originals/dd/c2/88/ddc288f587afc1185e93ef7479ac113f.jpg" alt="">
+    </div>
+    <br>
+
+    <div class="cursor">Cursor</div>
+    <br> 
+</body>
+</html>

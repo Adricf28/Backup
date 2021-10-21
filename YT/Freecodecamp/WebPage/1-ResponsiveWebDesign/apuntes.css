@@ -1,0 +1,6 @@
+/* CON ESTO PUEDES DEFINIR ESTILOS PARA DETERMINADAS CIRCUNSTANCIAS */
+@media (max-width: 500px) {
+    body {
+        background-color: black;
+    }
+}

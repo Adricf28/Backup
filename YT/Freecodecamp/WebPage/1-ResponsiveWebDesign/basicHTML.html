@@ -1,0 +1,79 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, monospace; 
+    /* SI ESPECIFICAS DOS FUENTES, SE USARA LA SEGUNDA EN CASO DE QUE LA PRIMERA NO SE EJECUTE */
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+  .silver-background {
+    background-color: silver;
+  }
+  #cat-photo-form {
+    background-color: green;
+  }
+</style>
+
+<!-- SI UN ELEMENTO HTML TIENE ID Y CLASS LOS ESTILOS DE CSS QUE SE APLICARAN EN CASO DE CONFLICTO SERAN LOS DEL ID -->
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="https://www.google.com" target="_blank"><img class="smaller-image thick-green-border" src="https://www.bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+  <!-- TARGET="_BLANK" HACE QUE LOS LINKS SE ABRAN EN OTRA PESTAÑA -->
+  <!-- ALT="FRASE" REEMPLAZA UNA IMAGEN POR LA FRASE ELEGIDA EN CASO DE QUE LA IMAGEN NO SE HAYA PODIDO CARGAR -->
+
+    <div class="silver-background">
+        <p>Things cats love:</p>
+    <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+    </ol>
+    </div>
+
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo" id="cat-photo-form">
+    <span>RADIO INPUTS</span> <br>
+    <label for="indoor"><input value="indoor" id="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label for="outdoor"><input value="outdoor" id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>       
+    <br>
+
+    <!-- TANTO LOS RADIO COMO LOS CHECKBOX DEBEN TENER EL MISMO NAME ENTRE SÍ -->
+    <!-- CON CHECKED SE AUTOMARCAN AL CARGAR LA PAGINA -->
+    <!-- EL FOR DE LOS LABEL Y EL ID DE EL INPUT QUE CONTIENEN DEBE SER EL MISMO -->
+    <!-- SI NO SE INDICA UN VALUE LOS INPUTS QUE NO SON TEXT NO ENVIARAN NINGUNA INFO AL DARLE AL SUBMIT -->
+
+    <span>CHECKBOX INPUTS</span> <br>
+    <label for="loving"><input value="loving" id="loving" type="checkbox" name="personality" checked> Loving</label>
+    <label for="lazy"><input value="lazy" id="lazy" type="checkbox" name="personality"> Lazy</label>                       
+    <label for="energetic"><input value="energetic" id="energetic" type="checkbox" name="personality"> Energetic</label><br>
+    <br>
+
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>

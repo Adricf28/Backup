@@ -1,0 +1,60 @@
+.Mitad{
+    width: 100vh;
+    height: 50vh;
+}
+
+body{
+    margin: 0;
+}
+
+#mitadTop{
+    display: flex;
+    justify-content: center;
+}
+#mitadBottom{
+    display: flex;
+    justify-content: center;
+
+}
+#primerDiv{
+    top: 0;
+    background-color: aqua;
+    display:flex;
+    justify-content: center;
+   
+}
+
+
+#primerDiv p{
+    font-size: 64px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+}
+
+#segundoDiv{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+#segundoDiv p{
+    font-size: 64px;
+    font-family: 'Courier New', Courier, monospace;
+    color: silver;
+}
+
+#tercerDiv{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+    height: 50vh;
+}
+
+#tercerDiv p{
+    color: white;
+    font-size: 64px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
