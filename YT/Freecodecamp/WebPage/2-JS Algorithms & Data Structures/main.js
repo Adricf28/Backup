@@ -920,30 +920,30 @@
 
 // -----------------------------------------------------------------------------------------
 
-function person(name){this.name = name;};
-function parrot(name){this.name = name;};
+// function person(name){this.name = name;};
+// function parrot(name){this.name = name;};
 
-let oze = new person("Oze");
-let wanillo = new parrot("Wanillo");
+// let oze = new person("Oze");
+// let wanillo = new parrot("Wanillo");
 
-// IIFE que devuelve un objeto con dos keys cuyos values son funciones a las que les pasas un objeto y le asigna un par key-value
-let funModule = (function () {
-    return {
-      isCuteMixin: function(obj) {
-        obj.isCute = function() {
-          return true;
-        }
-      },
-      singMixin: function(obj) {
-        obj.sing = function() {
-          console.log("Brrrr las colta los palo noeque noecuanto te meto tres tiro pum pum pum");
-        }
-      }
-    }
-}) ();
+// // IIFE que devuelve un objeto con dos keys cuyos values son funciones a las que les pasas un objeto y le asigna un par key-value
+// let funModule = (function () {
+//     return {
+//       isCuteMixin: function(obj) {
+//         obj.isCute = function() {
+//           return true;
+//         }
+//       },
+//       singMixin: function(obj) {
+//         obj.sing = function() {
+//           console.log("Brrrr las colta los palo noeque noecuanto te meto tres tiro pum pum pum");
+//         }
+//       }
+//     }
+// }) ();
 
-funModule.singMixin(oze);
-funModule.singMixin(wanillo);
+// funModule.singMixin(oze);
+// funModule.singMixin(wanillo);
 
-oze.sing();
-wanillo.sing();
+// oze.sing();
+// wanillo.sing();
